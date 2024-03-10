@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
 
-# pivoted_data = get_pivoted_data()
-# config = get_config()
 # data_df = pd.read_csv('LastPriceData.csv')
 data_df1 = pivoted_data.LastPriceData
 data_df1['Date'] = pd.to_datetime(data_df1['Date'])
