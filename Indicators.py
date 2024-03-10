@@ -5,10 +5,10 @@ import numpy as np
 data_df1 = pivoted_data.LastPriceData
 data_df1['Date'] = pd.to_datetime(data_df1['Date'])
 
-data_df2 = pd.read_csv("C:\\Users\\rahul.odedra\\LowPriceData.csv")
+data_df2 = pd.read_csv("LowPriceData.csv")
 data_df2['Date'] = pd.to_datetime(data_df2['Date'])
 
-data_df3 = pd.read_csv("C:\\Users\\rahul.odedra\\HighPriceData.csv")
+data_df3 = pd.read_csv("HighPriceData.csv")
 data_df3['Date'] = pd.to_datetime(data_df3['Date'])
 
 data_df4 = pivoted_data.VolumeData
